@@ -47,7 +47,7 @@ class Consultorio:
         return self.__piso
 
     def get_costo(self):
-        return self.__costo
+        return self.costo_total()
 
     def get_medico(self):
         return self.__medico
@@ -69,4 +69,6 @@ class Consultorio:
             
     def set_medico(self, nuevo_medico):
         self.__medico = nuevo_medico
+        
+objeto1=Consultorio(1,"MTY",1,"Ernesto")
 
