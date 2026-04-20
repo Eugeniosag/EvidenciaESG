@@ -20,3 +20,7 @@ class Consultorio:
         paciente = {"ID":id_paciente, "nombre": nombre_paciente}
         self.__pacientes.append(paciente)
         print("Agregado")
+        
+    def mostrar_pacientes(self):
+        for paciente in self.__pacientes:
+            print(paciente)
