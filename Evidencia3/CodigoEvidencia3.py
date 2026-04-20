@@ -77,3 +77,7 @@ print(objeto1.get_id_consultorio())
 print(objeto1.get_sucursal())
 print(objeto1.get_piso())
 print(objeto1.get_medico())
+
+# Agregar medicamentos
+objeto1.agregar_medicamento(101, "Paracetamol", 50)
+objeto1.agregar_medicamento(102, "Ibuprofeno", 80)
