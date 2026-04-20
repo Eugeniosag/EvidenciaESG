@@ -81,3 +81,24 @@ print(objeto1.get_medico())
 # Agregar medicamentos
 objeto1.agregar_medicamento(101, "Paracetamol", 50)
 objeto1.agregar_medicamento(102, "Ibuprofeno", 80)
+
+# Mostrar medicamentos
+objeto1.mostrar_medicamentos()
+
+# Agregar pacientes
+objeto1.agregar_paciente(1, "Juan")
+objeto1.agregar_paciente(2, "Maria")
+
+# Mostrar pacientes
+objeto1.mostrar_pacientes()
+
+# Calcular costo total
+print("Costo total:", objeto1.costo_total())
+
+# Probar setters
+objeto1.set_sucursal("CDMX")
+objeto1.set_piso(2)
+objeto1.set_medico("Carlos")
+
+# Ver info
+objeto1.info()
