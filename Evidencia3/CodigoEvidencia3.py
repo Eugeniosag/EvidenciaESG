@@ -72,3 +72,8 @@ class Consultorio:
         
 objeto1=Consultorio(1,"MTY",1,"Ernesto")
 
+# Probar getters
+print(objeto1.get_id_consultorio())
+print(objeto1.get_sucursal())
+print(objeto1.get_piso())
+print(objeto1.get_medico())
