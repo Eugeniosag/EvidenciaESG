@@ -11,3 +11,7 @@ class Consultorio:
         medicamento = {"id_medicamento": id_medicamento, "nombre": nombre_medicamento, "precio": precio}
         self.__medicamentos.append(medicamento)
         print("Agregado")
+        
+    def mostrar_medicamentos(self):
+        for medicamento in self.__medicamentos:
+            print(medicamento)
